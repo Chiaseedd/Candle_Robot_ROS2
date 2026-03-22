@@ -1,0 +1,16 @@
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml

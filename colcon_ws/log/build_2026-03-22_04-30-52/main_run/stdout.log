@@ -1,0 +1,66 @@
+[ 20%] Built target nodeshutdown
+[ 40%] Built target get_initialpose
+[ 60%] Built target nodelaunch
+[ 80%] Built target nodecontrols
+[100%] Built target navicontroltopic
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/navicontroltopic
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/nodelaunch
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/nodeshutdown
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/nodecontrols
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/get_initialpose
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/obstacle_avoidance.py
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/sphere_wanderer.py
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/mobile_goal_tracker.py
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/arm.launch
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/bringup_all.launch.py
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/full.launch
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/main_run.launch
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/main_run.launch.py
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/main_run_mapping.launch
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/mapping.launch
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/move_base.launch
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/navi.launch
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/navi_sensors_merged.launch
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/navi_test_only.launch
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/navigation.launch.py
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/nodecontrols.launch
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/config/nav2_params.yaml
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/config/rplidar.yaml
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/maps/empty_world.pgm
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/maps/empty_world.yaml
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/maps/map.pgm
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/maps/map.yaml
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/maps/old.pgm
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/maps/old.yaml
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/costmap_common_params (copy).yaml
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/costmap_common_params.yaml
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/costmap_common_params_0ld.yaml
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/dwa_local_planner_params.yaml
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/global_costmap_params.yaml
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/local_costmap_params.yaml
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/move_base_params.yaml
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/scripts/main.py
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/scripts/mobile_goal_tracker.py
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/scripts/obstacle_avoidance.py
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/scripts/script_1.py
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/scripts/sphere_wanderer.py
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/urdf/backpack_2d.urdf
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/urdf/green_sphere.urdf
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/rviz/custom_view.rviz
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/ament_index/resource_index/package_run_dependencies/main_run
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/ament_index/resource_index/parent_prefix_path/main_run
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/environment/path.sh
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/environment/path.dsv
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/local_setup.bash
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/local_setup.sh
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/local_setup.zsh
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/local_setup.dsv
+-- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/package.dsv
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/ament_index/resource_index/packages/main_run
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/cmake/main_runConfig.cmake
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/cmake/main_runConfig-version.cmake
+-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/package.xml

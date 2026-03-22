@@ -1,0 +1,120 @@
+[0.575s] Invoking command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/main_run -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run
+[1.942s] -- The C compiler identification is GNU 11.4.0
+[3.765s] -- The CXX compiler identification is GNU 11.4.0
+[4.963s] -- Detecting C compiler ABI info
+[7.194s] -- Detecting C compiler ABI info - done
+[7.252s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.255s] -- Detecting C compile features
+[7.258s] -- Detecting C compile features - done
+[7.404s] -- Detecting CXX compiler ABI info
+[9.849s] -- Detecting CXX compiler ABI info - done
+[9.911s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.914s] -- Detecting CXX compile features
+[9.917s] -- Detecting CXX compile features - done
+[10.045s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[10.719s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[10.987s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[11.360s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[12.044s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[12.069s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[12.104s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[12.150s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.246s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.562s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[12.578s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[17.234s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[21.813s] -- Found FastRTPS: /opt/ros/humble/include  
+[30.540s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[30.865s] -- Looking for pthread.h
+[33.914s] -- Looking for pthread.h - found
+[33.953s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[37.488s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[37.507s] -- Found Threads: TRUE  
+[38.058s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[38.159s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[38.279s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[38.422s] -- Found action_msgs: 1.2.2 (/opt/ros/humble/share/action_msgs/cmake)
+[38.729s] -- Found cartographer_ros_msgs: 2.0.9002 (/opt/ros/humble/share/cartographer_ros_msgs/cmake)
+[40.453s] -- Configuring done
+[41.948s] -- Generating done
+[42.847s] -- Build files have been written to: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run
+[42.867s] Invoked command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/main_run -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run
+[42.900s] Invoking command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run -- -j20 -l20
+[44.604s] [ 20%] [32mBuilding CXX object CMakeFiles/get_initialpose.dir/src/get_initialpose.cpp.o[0m
+[44.612s] [ 20%] [32mBuilding CXX object CMakeFiles/navicontroltopic.dir/src/navicontroltopic.cpp.o[0m
+[44.668s] [ 30%] [32mBuilding CXX object CMakeFiles/nodecontrols.dir/src/nodecontrols.cpp.o[0m
+[44.727s] [ 40%] [32mBuilding CXX object CMakeFiles/nodeshutdown.dir/src/nodeshutdown.cpp.o[0m
+[44.840s] [ 50%] [32mBuilding CXX object CMakeFiles/nodelaunch.dir/src/nodelaunch.cpp.o[0m
+[55.327s] [ 70%] [32m[1mLinking CXX executable nodeshutdown[0m
+[55.331s] [ 70%] [32m[1mLinking CXX executable nodecontrols[0m
+[59.791s] [ 70%] Built target nodecontrols
+[59.839s] [ 70%] Built target nodeshutdown
+[80.736s] [ 80%] [32m[1mLinking CXX executable nodelaunch[0m
+[91.902s] [ 90%] [32m[1mLinking CXX executable get_initialpose[0m
+[100.972s] [100%] [32m[1mLinking CXX executable navicontroltopic[0m
+[108.967s] [100%] Built target nodelaunch
+[116.579s] [100%] Built target get_initialpose
+[127.351s] [100%] Built target navicontroltopic
+[127.968s] Invoked command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run -- -j20 -l20
+[128.021s] Invoking command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run
+[128.477s] -- Install configuration: ""
+[128.500s] -- Execute custom install script
+[128.541s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/navicontroltopic
+[129.224s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/nodelaunch
+[129.836s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/nodeshutdown
+[130.309s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/nodecontrols
+[130.772s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/get_initialpose
+[131.300s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/obstacle_avoidance.py
+[131.982s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/sphere_wanderer.py
+[132.585s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/mobile_goal_tracker.py
+[133.547s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/arm.launch
+[134.091s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/bringup_all.launch.py
+[134.624s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/full.launch
+[135.183s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/main_run.launch
+[135.751s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/main_run.launch.py
+[136.496s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/main_run_mapping.launch
+[137.029s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/mapping.launch
+[137.587s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/move_base.launch
+[138.190s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/navi.launch
+[138.758s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/navi_sensors_merged.launch
+[139.300s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/navi_test_only.launch
+[139.869s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/navigation.launch.py
+[140.499s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/nodecontrols.launch
+[141.232s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/config/nav2_params.yaml
+[141.763s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/config/rplidar.yaml
+[142.335s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/maps/empty_world.pgm
+[142.902s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/maps/empty_world.yaml
+[143.448s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/maps/map.pgm
+[143.990s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/maps/map.yaml
+[144.631s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/maps/old.pgm
+[145.170s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/maps/old.yaml
+[145.750s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/costmap_common_params (copy).yaml
+[146.317s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/costmap_common_params.yaml
+[146.890s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/costmap_common_params_0ld.yaml
+[147.454s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/dwa_local_planner_params.yaml
+[147.992s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/global_costmap_params.yaml
+[148.513s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/local_costmap_params.yaml
+[149.110s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/move_base_params.yaml
+[149.816s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/scripts/main.py
+[150.514s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/scripts/mobile_goal_tracker.py
+[151.286s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/scripts/obstacle_avoidance.py
+[151.948s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/scripts/script_1.py
+[152.543s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/scripts/sphere_wanderer.py
+[153.244s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/urdf/backpack_2d.urdf
+[153.873s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/urdf/green_sphere.urdf
+[154.450s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/ament_index/resource_index/package_run_dependencies/main_run
+[155.038s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/ament_index/resource_index/parent_prefix_path/main_run
+[155.601s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/environment/ament_prefix_path.sh
+[156.106s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/environment/ament_prefix_path.dsv
+[156.610s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/environment/path.sh
+[157.176s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/environment/path.dsv
+[157.789s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/local_setup.bash
+[158.478s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/local_setup.sh
+[159.059s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/local_setup.zsh
+[159.738s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/local_setup.dsv
+[160.323s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/package.dsv
+[160.894s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/ament_index/resource_index/packages/main_run
+[161.432s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/cmake/main_runConfig.cmake
+[161.994s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/cmake/main_runConfig-version.cmake
+[162.582s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/package.xml
+[163.171s] Invoked command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run

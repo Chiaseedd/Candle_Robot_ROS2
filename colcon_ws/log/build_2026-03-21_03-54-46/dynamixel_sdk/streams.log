@@ -1,0 +1,40 @@
+[0.858s] Invoking command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_sdk -- -j20 -l20
+[8.455s] [100%] Built target dynamixel_sdk
+[9.883s] Invoked command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_sdk -- -j20 -l20
+[10.011s] Invoking command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_sdk
+[10.995s] -- Install configuration: ""
+[11.070s] -- Execute custom install script
+[12.071s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[12.311s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[12.558s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[12.807s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[13.053s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[13.293s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[13.524s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[13.760s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[13.977s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[14.094s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[14.253s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[14.473s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[14.670s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[14.769s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[14.859s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[14.988s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[15.288s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[15.580s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[15.674s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[15.816s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[15.917s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[16.046s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[16.163s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[16.291s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[16.417s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[16.525s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[16.593s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[18.521s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[18.647s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.779s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[18.906s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[19.028s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[19.198s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[24.069s] Invoked command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_sdk

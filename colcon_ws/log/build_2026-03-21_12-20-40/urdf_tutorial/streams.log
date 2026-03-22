@@ -1,0 +1,40 @@
+[0.180s] Invoking command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial': /usr/bin/cmake --build /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial -- -j20 -l20
+[0.577s] Invoked command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial' returned '0': /usr/bin/cmake --build /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial -- -j20 -l20
+[0.654s] Invoking command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial': /usr/bin/cmake --install /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial
+[0.675s] -- Install configuration: ""
+[0.710s] -- Execute custom install script
+[1.062s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/01-myfirst (copy).urdf
+[1.155s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/01-myfirst.urdf
+[1.228s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/02-multipleshapes.urdf
+[1.336s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/03-origins.urdf
+[1.458s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/04-materials.urdf
+[1.514s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/05-visual.urdf
+[1.553s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/06-flexible.urdf
+[1.588s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/07-physics.urdf
+[1.622s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/08-macroed.urdf.xacro
+[1.658s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/backpack_2d.urdf
+[1.690s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/feetech_tray.urdf.xacro
+[1.742s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/meshes/base_link.stl
+[1.793s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/meshes/updatedtray.stl
+[1.841s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/launch/display.launch
+[1.881s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/launch/gazebo.launch.py
+[1.959s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/rviz/urdf.rviz
+[1.997s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/rviz/urdf.vcg
+[2.055s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/world/apartment.world
+[2.096s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/world/optimized.world
+[2.155s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/ament_index/resource_index/package_run_dependencies/urdf_tutorial
+[2.211s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/ament_index/resource_index/parent_prefix_path/urdf_tutorial
+[2.249s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.sh
+[2.289s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.dsv
+[2.313s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/environment/path.sh
+[2.340s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/environment/path.dsv
+[2.366s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.bash
+[2.409s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.sh
+[2.471s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.zsh
+[2.530s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.dsv
+[2.558s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/package.dsv
+[2.873s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/ament_index/resource_index/packages/urdf_tutorial
+[2.966s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig.cmake
+[3.021s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig-version.cmake
+[3.052s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/package.xml
+[3.058s] Invoked command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial' returned '0': /usr/bin/cmake --install /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial

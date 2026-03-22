@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<robot name="feetech_tray" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>
+
+  <xacro:property name="description_pkg" value="package://urdf_tutorial" />
+
+  <!-- Inertia Macros -->
+  <xacro:macro name="box_inertia" params="m w h d">
+    <inertial>
+      <mass value="${m}"/>
+      <inertia ixx="${(m/12) * (h*h + d*d)}" ixy="0.0" ixz="0.0" iyy="${(m/12) * (w*w + d*d)}" iyz="0.0" izz="${(m/12) * (w*w + h*h)}"/>
+    </inertial>
+  </xacro:macro>
+
+  <xacro:macro name="cylinder_inertia" params="m r h">
+    <inertial>
+      <mass value="${m}"/>
+      <inertia ixx="${(m/12) * (3*r*r + h*h)}" ixy="0.0" ixz="0.0" iyy="${(m/12) * (3*r*r + h*h)}" iyz="0.0" izz="${(m/2) * (r*r)}"/>
+    </inertial>
+  </xacro:macro>
+
+  <xacro:macro name="sphere_inertia" params="m r">
+    <inertial>
+      <mass value="${m}"/>
+      <inertia ixx="${(2/5) * m * (r*r)}" ixy="0.0" ixz="0.0" iyy="${(2/5) * m * (r*r)}" iyz="0.0" izz="${(2/5) * m * (r*r)}"/>
+    </inertial>
+  </xacro:macro>
+
+  <link name="base_footprint"/>
+
+  <joint name="base_joint" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0.05" rpy="0 0 0"/>
+  </joint>
+
+  <!-- WHEELS -->
+  <link name="left_wheel">
+    <xacro:cylinder_inertia m="0.2" r="0.033" h="0.027"/>
+    <visual>
+      <origin rpy="1.570796 0 0" xyz="0 0 0" />
+      <geometry>
+        <cylinder length="0.027" radius="0.033" />
+      </geometry>
+      <material name="blue" />
+    </visual>
+    <collision>
+      <origin rpy="1.570796 0 0" xyz="0 0 0" />
+      <geometry>
+        <cylinder length="0.027" radius="0.033" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="left_wheel_joint" type="continuous">
+    <axis rpy="0 0 0" xyz="0 1 0"/>
+    <parent link="base_link" />
+    <child link="left_wheel" />
+    <origin xyz="0.0605 0.1335 -0.04458" />
+  </joint>
+
+  <link name="right_wheel">
+    <xacro:cylinder_inertia m="0.2" r="0.033" h="0.027"/>
+    <visual>
+      <origin rpy="1.570796 0 0" xyz="0 0 0" />
+      <geometry>
+        <cylinder length="0.027" radius="0.033" />
+      </geometry>
+      <material name="blue" />
+    </visual>
+    <collision>
+      <origin rpy="1.570796 0 0" xyz="0 0 0" />
+      <geometry>
+        <cylinder length="0.027" radius="0.033" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="right_wheel_joint" type="continuous">
+    <axis rpy="0 0 0" xyz="0 1 0"/>
+    <parent link="base_link" />
+    <child link="right_wheel" />
+    <origin xyz="0.0605 -0.1335 -0.04458" />
+  </joint>
+
+  <link name="rear_wheel">
+    <xacro:sphere_inertia m="0.1" r="0.033"/>
+    <visual>
+      <origin rpy="1.570796 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.033" />
+      </geometry>
+      <material name="blue" />
+    </visual>
+    <collision>
+      <origin rpy="1.570796 0 0" xyz="0 0 0" />
+      <geometry>
+        <sphere radius="0.033" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="rear_wheel_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="rear_wheel" />
+    <origin xyz="-0.13 0 -0.04458" />
+  </joint>
+
+  <!-- GAZEBO PHYSICS -->
+  <gazebo reference="rear_wheel">
+    <mu1>0.0</mu1>
+    <mu2>0.0</mu2>
+  </gazebo>
+
+  <gazebo>
+    <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+      <ros>
+        <remapping>cmd_vel:=/cmd_vel</remapping>
+        <remapping>odom:=/odom</remapping>
+      </ros>
+      <update_rate>50</update_rate>
+      <left_joint>left_wheel_joint</left_joint>
+      <right_joint>right_wheel_joint</right_joint>
+      <wheel_separation>0.267</wheel_separation>
+      <wheel_diameter>0.066</wheel_diameter>
+      <max_wheel_acceleration>1.0</max_wheel_acceleration>
+      <max_wheel_torque>20</max_wheel_torque>
+      <command_topic>/cmd_vel</command_topic>
+      <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
+      <publish_wheel_tf>true</publish_wheel_tf>
+      <odometry_topic>/odom</odometry_topic>
+      <odometry_frame>odom</odometry_frame>
+      <robot_base_frame>base_footprint</robot_base_frame>
+    </plugin>
+  </gazebo>
+
+  <!-- BASE LINK -->
+  <link name="base_link">
+    <xacro:box_inertia m="5.0" w="0.2" h="0.3" d="0.1"/>
+    <visual>
+      <origin rpy="0 0 3.14" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="${description_pkg}/meshes/base_link.stl"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="${description_pkg}/meshes/base_link.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- LIDAR -->
+  <link name="laser">
+    <visual>
+      <origin xyz="0 0 0" />
+      <geometry>
+        <cylinder length="0.02" radius="0.04" />
+      </geometry>
+      <material name="blue" />
+    </visual>
+  </link>
+
+  <joint name="laser_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="laser" />
+    <origin xyz="0 0 0.11" rpy="0.0 0.0 0"/>
+  </joint>
+
+  <gazebo reference="laser">
+    <sensor type="ray" name="rplidar_sensor">
+      <pose>0 0 0 0 0 0</pose>
+      <visualize>false</visualize>
+      <update_rate>10</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>360</samples>
+            <resolution>1</resolution>
+            <min_angle>-3.14159</min_angle>
+            <max_angle>3.14159</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.15</min>
+          <max>10.0</max>
+          <resolution>0.01</resolution>
+        </range>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </ray>
+      <plugin name="gazebo_ros_ray_sensor" filename="libgazebo_ros_ray_sensor.so">
+        <ros>
+          <remapping>~/out:=/scan</remapping>
+        </ros>
+        <output_type>sensor_msgs/LaserScan</output_type>
+        <frame_name>laser</frame_name>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+  <!-- Because there are no more position/velocity controllable joints, 
+       we do NOT include feetech.gazebo.xacro for gazebo_ros2_control. 
+       The diff_drive plugin manages the wheels, and the rest is structural. -->
+
+  <!-- WAIST (updated tray mesh from teammate) -->
+  <link name="updatedtray">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="${description_pkg}/meshes/updatedtray.stl" scale="0.00001 0.00001 0.00001"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <joint name="waist_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="updatedtray"/>
+    <origin xyz="0.015 0 0.655" rpy="0 0 1.5708"/>
+  </joint>
+
+</robot>

@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2acd3559389ced37c014.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "main_run",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "get_initialpose::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-get_initialpose-94f5e499a68aaa0b7f2b.json",
+					"name" : "get_initialpose",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main_run_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main_run_uninstall-556c9cd0d1327dd8d124.json",
+					"name" : "main_run_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navicontroltopic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navicontroltopic-2ab346ae3586e5bbc893.json",
+					"name" : "navicontroltopic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nodecontrols::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nodecontrols-f50dc255f18b593d905e.json",
+					"name" : "nodecontrols",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nodelaunch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nodelaunch-772db547380033dc6680.json",
+					"name" : "nodelaunch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nodeshutdown::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nodeshutdown-fd59673408fe91cb883a.json",
+					"name" : "nodeshutdown",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-df76f57172cd4b68d59d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run",
+		"source" : "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/main_run"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

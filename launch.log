@@ -1,0 +1,21 @@
+1773679703.0837028 [INFO] [launch]: All log files can be found below /home/jia/.ros/log/2026-03-17-00-48-23-082441-LAPTOP-QBFAPHDE-18241
+1773679703.0838861 [INFO] [launch]: Default logging verbosity is set to INFO
+1773679765.5038998 [INFO] [gzserver-1]: process started with pid [18248]
+1773679765.5040362 [INFO] [gzclient-2]: process started with pid [18250]
+1773679765.5041046 [INFO] [robot_state_publisher-3]: process started with pid [18252]
+1773679765.5041595 [INFO] [spawn_entity.py-4]: process started with pid [18254]
+1773679765.5042098 [INFO] [spawn_entity.py-5]: process started with pid [18256]
+1773679769.8298061 [INFO] [spawn_entity.py-4]: process has finished cleanly [pid 18254]
+1773679771.2063820 [gzserver-1] [INFO] [1773679771.205975450] [diff_drive]: Wheel pair 1 separation set to [0.267000m]
+1773679771.2070827 [gzserver-1] [INFO] [1773679771.206238064] [diff_drive]: Wheel pair 1 diameter set to [0.066000m]
+1773679771.2091010 [gzserver-1] [INFO] [1773679771.208946996] [diff_drive]: Subscribed to [/cmd_vel]
+1773679771.2386432 [gzserver-1] [INFO] [1773679771.238432871] [diff_drive]: Advertise odometry on [/odom]
+1773679771.2880681 [gzserver-1] [INFO] [1773679771.287837246] [diff_drive]: Publishing odom transforms between [odom] and [base_footprint]
+1773679771.2882118 [gzserver-1] [INFO] [1773679771.287880600] [diff_drive]: Publishing wheel transforms between [base_footprint], [left_wheel_joint] and [right_wheel_joint]
+1773679771.5335653 [gzserver-1] [INFO] [1773679771.533242777] [object_controller]: Subscribed to [/cmd_vel]
+1773679771.5351174 [gzserver-1] [INFO] [1773679771.534731246] [object_controller]: Advertise odometry on [/odom]
+1773679771.6426439 [INFO] [spawn_entity.py-5]: process has finished cleanly [pid 18256]
+1773679877.1376801 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1773679877.2505751 [INFO] [robot_state_publisher-3]: process has finished cleanly [pid 18252]
+1773679877.3839288 [INFO] [gzserver-1]: process has finished cleanly [pid 18248]
+1773679877.6373725 [INFO] [gzclient-2]: process has finished cleanly [pid 18250]

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/odom/odom_c" "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/odom/get_odom" "TARGETS" "odom_c" "get_odom" "DESTINATION" "lib/odom")

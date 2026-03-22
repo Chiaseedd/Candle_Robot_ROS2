@@ -1,0 +1,11 @@
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/odom/CMakeFiles/uninstall.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/odom/CMakeFiles/odom_uninstall.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/odom/CMakeFiles/odom_c.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/odom/CMakeFiles/get_odom.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/odom/CMakeFiles/test.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/odom/CMakeFiles/edit_cache.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/odom/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/odom/CMakeFiles/list_install_components.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/odom/CMakeFiles/install.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/odom/CMakeFiles/install/local.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/odom/CMakeFiles/install/strip.dir

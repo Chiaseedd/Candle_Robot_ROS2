@@ -1,0 +1,10 @@
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/feetechlib/CMakeFiles/uninstall.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/feetechlib/CMakeFiles/feetechlib_uninstall.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/feetechlib/CMakeFiles/feetechlib.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/feetechlib/CMakeFiles/test.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/feetechlib/CMakeFiles/edit_cache.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/feetechlib/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/feetechlib/CMakeFiles/list_install_components.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/feetechlib/CMakeFiles/install.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/feetechlib/CMakeFiles/install/local.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/feetechlib/CMakeFiles/install/strip.dir

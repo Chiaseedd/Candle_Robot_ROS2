@@ -1,0 +1,23 @@
+# ROS 2 Workspaces
+build/
+install/
+log/
+.colcon_ws
+
+# Temp and OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+*.log
+*.sqlite
+__pycache__/
+*.pyc
+
+# Local Configs
+.vscode/
+
+# Ignore old ROS 1 workspace if it exists
+robot/build/
+robot/devel/
+robot/log/

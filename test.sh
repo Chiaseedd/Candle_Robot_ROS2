@@ -1,0 +1,1 @@
+source /opt/ros/humble/setup.bash && source /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/setup.bash && ros2 launch urdf_tutorial gazebo.launch.py > gazebo.log 2>&1 & sleep 15 && ros2 topic list -t > topics.txt && ros2 topic info /scan > scan_info.txt && ros2 run tf2_tools view_frames && killall gzserver gzclient

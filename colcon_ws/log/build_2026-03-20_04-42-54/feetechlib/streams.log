@@ -1,0 +1,34 @@
+[0.774s] Invoking command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/feetechlib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/feetechlib -- -j20 -l20
+[5.744s] [100%] Built target feetechlib
+[6.466s] Invoked command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/feetechlib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/feetechlib -- -j20 -l20
+[6.552s] Invoking command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/feetechlib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/feetechlib
+[7.413s] -- Install configuration: ""
+[7.461s] -- Execute custom install script
+[7.802s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/include/feetechlib/INST.h
+[7.925s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/include/feetechlib/SCS.h
+[8.065s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/include/feetechlib/SCSCL.h
+[8.169s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/include/feetechlib/SCSerial.h
+[8.275s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/include/feetechlib/SCServo.h
+[8.372s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/include/feetechlib/SMSBL.h
+[8.476s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/include/feetechlib/SMSCL.h
+[8.643s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/share/ament_index/resource_index/package_run_dependencies/feetechlib
+[8.805s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/share/ament_index/resource_index/parent_prefix_path/feetechlib
+[8.866s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/share/feetechlib/environment/ament_prefix_path.sh
+[8.938s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/share/feetechlib/environment/ament_prefix_path.dsv
+[8.993s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/share/feetechlib/environment/path.sh
+[9.068s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/share/feetechlib/environment/path.dsv
+[9.131s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/share/feetechlib/local_setup.bash
+[9.199s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/share/feetechlib/local_setup.sh
+[9.266s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/share/feetechlib/local_setup.zsh
+[9.341s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/share/feetechlib/local_setup.dsv
+[9.372s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/share/feetechlib/package.dsv
+[10.612s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/share/ament_index/resource_index/packages/feetechlib
+[10.689s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/share/feetechlib/cmake/ament_cmake_export_targets-extras.cmake
+[10.784s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/share/feetechlib/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.845s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/share/feetechlib/cmake/feetechlibConfig.cmake
+[10.907s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/share/feetechlib/cmake/feetechlibConfig-version.cmake
+[10.984s] -- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/share/feetechlib/package.xml
+[11.108s] -- Up-to-date: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/lib/libfeetechlib.so
+[11.405s] -- Up-to-date: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/share/feetechlib/cmake/export_feetechlibExport.cmake
+[11.546s] -- Up-to-date: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/feetechlib/share/feetechlib/cmake/export_feetechlibExport-noconfig.cmake
+[15.116s] Invoked command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/feetechlib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/feetechlib

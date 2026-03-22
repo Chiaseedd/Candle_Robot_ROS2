@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.001060] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.001531] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.002712] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.003552] (-) JobUnselected: {'identifier': 'dynamixel_workbench'}
+[0.003924] (-) JobUnselected: {'identifier': 'dynamixel_workbench_msgs'}
+[0.004336] (-) JobUnselected: {'identifier': 'dynamixel_workbench_toolbox'}
+[0.004870] (-) JobUnselected: {'identifier': 'feetechlib'}
+[0.005373] (-) JobUnselected: {'identifier': 'main_run'}
+[0.006407] (-) JobUnselected: {'identifier': 'odom'}
+[0.006890] (urdf_tutorial) JobQueued: {'identifier': 'urdf_tutorial', 'dependencies': OrderedDict()}
+[0.007496] (urdf_tutorial) JobStarted: {'identifier': 'urdf_tutorial'}
+[0.038500] (urdf_tutorial) JobProgress: {'identifier': 'urdf_tutorial', 'progress': 'cmake'}
+[0.097220] (-) TimerEvent: {}
+[0.099015] (urdf_tutorial) JobProgress: {'identifier': 'urdf_tutorial', 'progress': 'build'}
+[0.124472] (urdf_tutorial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial', '--', '-j20', '-l20'], 'cwd': '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial', 'env': OrderedDict([('USER', 'jia'), ('SHLVL', '0'), ('HOME', '/home/jia'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'jia'), ('NAME', 'LAPTOP-QBFAPHDE'), ('_', '/usr/bin/colcon'), ('WSL_INTEROP', '/run/WSL/2150_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.2.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/ZED SDK/dependencies/freeglut_2.8/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/glew-1.12.0/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/opencv_3.1.0/x64:/mnt/c/Program Files (x86)/ZED SDK/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/User/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Antigravity/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('PWD', '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.197376] (-) TimerEvent: {}
+[0.298155] (-) TimerEvent: {}
+[0.382970] (urdf_tutorial) CommandEnded: {'returncode': 0}
+[0.398287] (-) TimerEvent: {}
+[0.417464] (urdf_tutorial) JobProgress: {'identifier': 'urdf_tutorial', 'progress': 'install'}
+[0.437737] (urdf_tutorial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial'], 'cwd': '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial', 'env': OrderedDict([('USER', 'jia'), ('SHLVL', '0'), ('HOME', '/home/jia'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'jia'), ('NAME', 'LAPTOP-QBFAPHDE'), ('_', '/usr/bin/colcon'), ('WSL_INTEROP', '/run/WSL/2150_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.2.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/ZED SDK/dependencies/freeglut_2.8/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/glew-1.12.0/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/opencv_3.1.0/x64:/mnt/c/Program Files (x86)/ZED SDK/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/User/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Antigravity/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('PWD', '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.453957] (urdf_tutorial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.475654] (urdf_tutorial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.498419] (-) TimerEvent: {}
+[0.599054] (-) TimerEvent: {}
+[0.658901] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/01-myfirst (copy).urdf\n'}
+[0.699177] (-) TimerEvent: {}
+[0.722535] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/01-myfirst.urdf\n'}
+[0.799364] (-) TimerEvent: {}
+[0.881249] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/02-multipleshapes.urdf\n'}
+[0.899520] (-) TimerEvent: {}
+[0.961581] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/03-origins.urdf\n'}
+[0.999675] (-) TimerEvent: {}
+[1.100433] (-) TimerEvent: {}
+[1.105621] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/04-materials.urdf\n'}
+[1.161034] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/05-visual.urdf\n'}
+[1.200629] (-) TimerEvent: {}
+[1.209159] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/06-flexible.urdf\n'}
+[1.260376] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/07-physics.urdf\n'}
+[1.300802] (-) TimerEvent: {}
+[1.328183] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/08-macroed.urdf.xacro\n'}
+[1.391859] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/backpack_2d.urdf\n'}
+[1.400860] (-) TimerEvent: {}
+[1.476913] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/feetech_tray.urdf.xacro\n'}
+[1.500984] (-) TimerEvent: {}
+[1.601561] (-) TimerEvent: {}
+[1.609347] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/meshes/base_link.stl\n'}
+[1.694305] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/meshes/updatedtray.stl\n'}
+[1.701670] (-) TimerEvent: {}
+[1.792056] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/launch/display.launch\n'}
+[1.801714] (-) TimerEvent: {}
+[1.856006] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/launch/gazebo.launch.py\n'}
+[1.901870] (-) TimerEvent: {}
+[1.960340] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/rviz/urdf.rviz\n'}
+[2.002013] (-) TimerEvent: {}
+[2.022274] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/rviz/urdf.vcg\n'}
+[2.102166] (-) TimerEvent: {}
+[2.134335] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/world/apartment.world\n'}
+[2.202031] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/world/optimized.world\n'}
+[2.203708] (-) TimerEvent: {}
+[2.304270] (-) TimerEvent: {}
+[2.310928] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/ament_index/resource_index/package_run_dependencies/urdf_tutorial\n'}
+[2.404428] (-) TimerEvent: {}
+[2.416144] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/ament_index/resource_index/parent_prefix_path/urdf_tutorial\n'}
+[2.480623] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.sh\n'}
+[2.504536] (-) TimerEvent: {}
+[2.536713] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.dsv\n'}
+[2.589844] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/environment/path.sh\n'}
+[2.604627] (-) TimerEvent: {}
+[2.643024] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/environment/path.dsv\n'}
+[2.684048] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.bash\n'}
+[2.704764] (-) TimerEvent: {}
+[2.727105] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.sh\n'}
+[2.772895] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.zsh\n'}
+[2.804921] (-) TimerEvent: {}
+[2.814982] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.dsv\n'}
+[2.832610] (urdf_tutorial) StdoutLine: {'line': b'-- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/package.dsv\n'}
+[2.905077] (-) TimerEvent: {}
+[2.988714] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/ament_index/resource_index/packages/urdf_tutorial\n'}
+[3.005188] (-) TimerEvent: {}
+[3.037994] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig.cmake\n'}
+[3.097690] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig-version.cmake\n'}
+[3.105290] (-) TimerEvent: {}
+[3.144488] (urdf_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/package.xml\n'}
+[3.152527] (urdf_tutorial) CommandEnded: {'returncode': 0}
+[3.205479] (-) TimerEvent: {}
+[3.306096] (-) TimerEvent: {}
+[3.407549] (-) TimerEvent: {}
+[3.513380] (-) TimerEvent: {}
+[3.614129] (-) TimerEvent: {}
+[3.716541] (-) TimerEvent: {}
+[3.817282] (-) TimerEvent: {}
+[3.917875] (-) TimerEvent: {}
+[4.018580] (-) TimerEvent: {}
+[4.119167] (-) TimerEvent: {}
+[4.219700] (-) TimerEvent: {}
+[4.322230] (-) TimerEvent: {}
+[4.422735] (-) TimerEvent: {}
+[4.523460] (-) TimerEvent: {}
+[4.624742] (-) TimerEvent: {}
+[4.640039] (urdf_tutorial) JobEnded: {'identifier': 'urdf_tutorial', 'rc': 0}
+[4.651101] (-) EventReactorShutdown: {}

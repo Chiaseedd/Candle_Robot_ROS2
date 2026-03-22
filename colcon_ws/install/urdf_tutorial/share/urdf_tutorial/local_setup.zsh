@@ -1,0 +1,1 @@
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial/ament_cmake_environment_hooks/local_setup.zsh

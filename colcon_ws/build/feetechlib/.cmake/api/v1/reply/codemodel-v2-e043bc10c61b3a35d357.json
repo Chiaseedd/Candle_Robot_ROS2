@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-aa8cc2704b3149353e82.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "feetechlib",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "feetechlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-feetechlib-a44d3126f6b372f82d9d.json",
+					"name" : "feetechlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "feetechlib_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-feetechlib_uninstall-4e3845a3fd561efa9aa3.json",
+					"name" : "feetechlib_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-374fc4774fe3c95bfe01.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/feetechlib",
+		"source" : "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/feetech/feetechlib"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "package_name": "dynamixel_workbench_msgs",
+  "non_idl_tuples": [
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/AX.msg",
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/EX.msg",
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/MX.msg",
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/MX2.msg",
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/MX2Ext.msg",
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/MXExt.msg",
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/PRO.msg",
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/PROExt.msg",
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/RX.msg",
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/XH.msg",
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/XL.msg",
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/XL320.msg",
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/XM.msg",
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/XMExt.msg",
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/DynamixelState.msg",
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/DynamixelStateList.msg",
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/DynamixelInfo.msg",
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/DynamixelLoadInfo.msg",
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:srv/GetDynamixelInfo.srv",
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:srv/DynamixelCommand.srv"
+  ]
+}

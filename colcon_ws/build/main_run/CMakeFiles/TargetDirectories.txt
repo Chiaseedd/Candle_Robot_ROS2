@@ -1,0 +1,14 @@
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run/CMakeFiles/uninstall.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run/CMakeFiles/main_run_uninstall.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run/CMakeFiles/navicontroltopic.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run/CMakeFiles/nodelaunch.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run/CMakeFiles/nodeshutdown.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run/CMakeFiles/nodecontrols.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run/CMakeFiles/get_initialpose.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run/CMakeFiles/test.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run/CMakeFiles/edit_cache.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run/CMakeFiles/list_install_components.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run/CMakeFiles/install.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run/CMakeFiles/install/local.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run/CMakeFiles/install/strip.dir

@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.000514] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.001065] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.001432] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.002056] (-) JobUnselected: {'identifier': 'dynamixel_workbench'}
+[0.003083] (-) JobUnselected: {'identifier': 'dynamixel_workbench_msgs'}
+[0.004240] (-) JobUnselected: {'identifier': 'dynamixel_workbench_toolbox'}
+[0.005214] (-) JobUnselected: {'identifier': 'feetechlib'}
+[0.005962] (-) JobUnselected: {'identifier': 'odom'}
+[0.006604] (-) JobUnselected: {'identifier': 'urdf_tutorial'}
+[0.007495] (main_run) JobQueued: {'identifier': 'main_run', 'dependencies': OrderedDict()}
+[0.008401] (main_run) JobStarted: {'identifier': 'main_run'}
+[0.041355] (main_run) JobProgress: {'identifier': 'main_run', 'progress': 'cmake'}
+[0.077796] (main_run) JobProgress: {'identifier': 'main_run', 'progress': 'build'}
+[0.087090] (main_run) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run', '--', '-j20', '-l20'], 'cwd': '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run', 'env': OrderedDict([('USER', 'jia'), ('SHLVL', '0'), ('HOME', '/home/jia'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'jia'), ('NAME', 'LAPTOP-QBFAPHDE'), ('_', '/usr/bin/colcon'), ('WSL_INTEROP', '/run/WSL/8508_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.2.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/ZED SDK/dependencies/freeglut_2.8/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/glew-1.12.0/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/opencv_3.1.0/x64:/mnt/c/Program Files (x86)/ZED SDK/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/User/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Antigravity/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('PWD', '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.108891] (-) TimerEvent: {}
+[0.209328] (-) TimerEvent: {}
+[0.309922] (-) TimerEvent: {}
+[0.410365] (-) TimerEvent: {}
+[0.511464] (-) TimerEvent: {}
+[0.612163] (-) TimerEvent: {}
+[0.703915] (main_run) StdoutLine: {'line': b'[ 60%] Built target nodelaunch\n'}
+[0.712103] (main_run) StdoutLine: {'line': b'[ 80%] Built target nodecontrols\n'}
+[0.713944] (-) TimerEvent: {}
+[0.716349] (main_run) StdoutLine: {'line': b'[ 90%] Built target nodeshutdown\n'}
+[0.720994] (main_run) StdoutLine: {'line': b'[100%] Built target navicontroltopic\n'}
+[0.724249] (main_run) StdoutLine: {'line': b'[100%] Built target get_initialpose\n'}
+[0.814037] (-) TimerEvent: {}
+[0.830069] (main_run) CommandEnded: {'returncode': 0}
+[0.865664] (main_run) JobProgress: {'identifier': 'main_run', 'progress': 'install'}
+[0.883536] (main_run) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run'], 'cwd': '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run', 'env': OrderedDict([('USER', 'jia'), ('SHLVL', '0'), ('HOME', '/home/jia'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'jia'), ('NAME', 'LAPTOP-QBFAPHDE'), ('_', '/usr/bin/colcon'), ('WSL_INTEROP', '/run/WSL/8508_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.2.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/ZED SDK/dependencies/freeglut_2.8/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/glew-1.12.0/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/opencv_3.1.0/x64:/mnt/c/Program Files (x86)/ZED SDK/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/User/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Antigravity/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('PWD', '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.899914] (main_run) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.914133] (-) TimerEvent: {}
+[0.924400] (main_run) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.974597] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/navicontroltopic\n'}
+[1.014242] (-) TimerEvent: {}
+[1.017729] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/nodelaunch\n'}
+[1.064029] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/nodeshutdown\n'}
+[1.113164] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/nodecontrols\n'}
+[1.115424] (-) TimerEvent: {}
+[1.154971] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/get_initialpose\n'}
+[1.215589] (-) TimerEvent: {}
+[1.218087] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/obstacle_avoidance.py\n'}
+[1.272070] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/sphere_wanderer.py\n'}
+[1.315793] (-) TimerEvent: {}
+[1.335289] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/main_run/mobile_goal_tracker.py\n'}
+[1.416044] (-) TimerEvent: {}
+[1.516650] (-) TimerEvent: {}
+[1.547444] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/arm.launch\n'}
+[1.616794] (-) TimerEvent: {}
+[1.619633] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/bringup_all.launch.py\n'}
+[1.676727] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/full.launch\n'}
+[1.716918] (-) TimerEvent: {}
+[1.741914] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/main_run.launch\n'}
+[1.808622] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/main_run.launch.py\n'}
+[1.817077] (-) TimerEvent: {}
+[1.855411] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/main_run_mapping.launch\n'}
+[1.904523] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/mapping.launch\n'}
+[1.917239] (-) TimerEvent: {}
+[1.969121] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/move_base.launch\n'}
+[2.017381] (-) TimerEvent: {}
+[2.048082] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/navi.launch\n'}
+[2.117510] (-) TimerEvent: {}
+[2.128512] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/navi_sensors_merged.launch\n'}
+[2.213534] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/navi_test_only.launch\n'}
+[2.217594] (-) TimerEvent: {}
+[2.295433] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/navigation.launch.py\n'}
+[2.317778] (-) TimerEvent: {}
+[2.370232] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/launch/nodecontrols.launch\n'}
+[2.417934] (-) TimerEvent: {}
+[2.484325] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/config/nav2_params.yaml\n'}
+[2.518176] (-) TimerEvent: {}
+[2.557143] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/config/rplidar.yaml\n'}
+[2.618358] (-) TimerEvent: {}
+[2.669712] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/maps/empty_world.pgm\n'}
+[2.718488] (-) TimerEvent: {}
+[2.736162] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/maps/empty_world.yaml\n'}
+[2.796687] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/maps/map.pgm\n'}
+[2.818758] (-) TimerEvent: {}
+[2.860986] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/maps/map.yaml\n'}
+[2.918633] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/maps/old.pgm\n'}
+[2.920240] (-) TimerEvent: {}
+[2.985704] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/maps/old.yaml\n'}
+[3.020375] (-) TimerEvent: {}
+[3.114860] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/costmap_common_params (copy).yaml\n'}
+[3.120598] (-) TimerEvent: {}
+[3.179631] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/costmap_common_params.yaml\n'}
+[3.220727] (-) TimerEvent: {}
+[3.240018] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/costmap_common_params_0ld.yaml\n'}
+[3.307755] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/dwa_local_planner_params.yaml\n'}
+[3.320931] (-) TimerEvent: {}
+[3.378489] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/global_costmap_params.yaml\n'}
+[3.421158] (-) TimerEvent: {}
+[3.451666] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/local_costmap_params.yaml\n'}
+[3.521454] (-) TimerEvent: {}
+[3.524773] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/param/move_base_params.yaml\n'}
+[3.621670] (-) TimerEvent: {}
+[3.655539] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/scripts/main.py\n'}
+[3.719866] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/scripts/mobile_goal_tracker.py\n'}
+[3.722116] (-) TimerEvent: {}
+[3.784030] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/scripts/obstacle_avoidance.py\n'}
+[3.822287] (-) TimerEvent: {}
+[3.844574] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/scripts/script_1.py\n'}
+[3.905522] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/scripts/sphere_wanderer.py\n'}
+[3.922489] (-) TimerEvent: {}
+[3.985805] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/urdf/backpack_2d.urdf\n'}
+[4.022694] (-) TimerEvent: {}
+[4.041146] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/urdf/green_sphere.urdf\n'}
+[4.118899] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/rviz/custom_view.rviz\n'}
+[4.123166] (-) TimerEvent: {}
+[4.224042] (-) TimerEvent: {}
+[4.233270] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/ament_index/resource_index/package_run_dependencies/main_run\n'}
+[4.324175] (-) TimerEvent: {}
+[4.366204] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/ament_index/resource_index/parent_prefix_path/main_run\n'}
+[4.418926] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/environment/ament_prefix_path.sh\n'}
+[4.424382] (-) TimerEvent: {}
+[4.482057] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/environment/ament_prefix_path.dsv\n'}
+[4.524576] (-) TimerEvent: {}
+[4.532948] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/environment/path.sh\n'}
+[4.601914] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/environment/path.dsv\n'}
+[4.624732] (-) TimerEvent: {}
+[4.651459] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/local_setup.bash\n'}
+[4.701324] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/local_setup.sh\n'}
+[4.724988] (-) TimerEvent: {}
+[4.746458] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/local_setup.zsh\n'}
+[4.804283] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/local_setup.dsv\n'}
+[4.825133] (main_run) StdoutLine: {'line': b'-- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/package.dsv\n'}
+[4.826870] (-) TimerEvent: {}
+[4.927838] (-) TimerEvent: {}
+[4.971029] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/ament_index/resource_index/packages/main_run\n'}
+[5.020946] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/cmake/main_runConfig.cmake\n'}
+[5.027980] (-) TimerEvent: {}
+[5.072874] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/cmake/main_runConfig-version.cmake\n'}
+[5.128227] (-) TimerEvent: {}
+[5.131138] (main_run) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/package.xml\n'}
+[5.139857] (main_run) CommandEnded: {'returncode': 0}
+[5.228453] (-) TimerEvent: {}
+[5.329334] (-) TimerEvent: {}
+[5.430264] (-) TimerEvent: {}
+[5.531018] (-) TimerEvent: {}
+[5.631904] (-) TimerEvent: {}
+[5.742870] (-) TimerEvent: {}
+[5.853143] (-) TimerEvent: {}
+[5.953757] (-) TimerEvent: {}
+[6.054672] (-) TimerEvent: {}
+[6.155209] (-) TimerEvent: {}
+[6.255835] (-) TimerEvent: {}
+[6.358131] (-) TimerEvent: {}
+[6.458791] (-) TimerEvent: {}
+[6.571463] (-) TimerEvent: {}
+[6.672345] (-) TimerEvent: {}
+[6.773105] (-) TimerEvent: {}
+[6.873848] (-) TimerEvent: {}
+[6.974580] (-) TimerEvent: {}
+[7.075171] (-) TimerEvent: {}
+[7.122671] (main_run) JobEnded: {'identifier': 'main_run', 'rc': 0}
+[7.140548] (-) EventReactorShutdown: {}

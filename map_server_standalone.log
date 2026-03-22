@@ -1,0 +1,26 @@
+[INFO] [1773680479.438243315] [map_server]: 
+	map_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1773680479.438658595] [map_server]: Creating
+[INFO] [1773680521.666571103] [map_server]: Configuring
+[INFO] [1773680521.666642416] [map_io]: Loading yaml file: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/main_run/maps/map.yaml
+[INFO] [1773680521.669932376] [map_io]: resolution: 0.05
+[INFO] [1773680521.669978722] [map_io]: origin[0]: 0
+[INFO] [1773680521.669981899] [map_io]: origin[1]: 0
+[INFO] [1773680521.669984437] [map_io]: origin[2]: 0
+[INFO] [1773680521.669986683] [map_io]: free_thresh: 0.196
+[INFO] [1773680521.669988722] [map_io]: occupied_thresh: 0.65
+[INFO] [1773680521.669991333] [map_io]: mode: trinary
+[INFO] [1773680521.669993938] [map_io]: negate: 0
+[INFO] [1773680521.673228427] [map_io]: Loading image_file: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/main_run/maps/map.pgm
+[INFO] [1773680521.716367797] [map_io]: Read map /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/main_run/maps/map.pgm: 340 X 276 map @ 0.05 m/cell
+[INFO] [1773680523.975265875] [map_server]: Activating
+[INFO] [1773680523.975429216] [map_server]: Creating bond (map_server) to lifecycle manager.
+[INFO] [1773680579.520935048] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1773680579.521013854] [map_server]: Running Nav2 LifecycleNode rcl preshutdown (map_server)
+[INFO] [1773680579.521078593] [map_server]: Deactivating
+[INFO] [1773680579.521088305] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[INFO] [1773680579.531316855] [map_server]: Cleaning up
+[INFO] [1773680579.531378056] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[INFO] [1773680579.532271453] [map_server]: Destroying

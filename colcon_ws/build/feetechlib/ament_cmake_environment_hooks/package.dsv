@@ -1,0 +1,4 @@
+source;share/feetechlib/local_setup.bash
+source;share/feetechlib/local_setup.dsv
+source;share/feetechlib/local_setup.sh
+source;share/feetechlib/local_setup.zsh

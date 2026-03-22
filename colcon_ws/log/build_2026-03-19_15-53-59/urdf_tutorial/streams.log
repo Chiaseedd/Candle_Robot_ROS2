@@ -1,0 +1,150 @@
+[0.622s] Invoking command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/urdf_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial
+[2.136s] -- The C compiler identification is GNU 11.4.0
+[4.242s] -- The CXX compiler identification is GNU 11.4.0
+[5.627s] -- Detecting C compiler ABI info
+[8.240s] -- Detecting C compiler ABI info - done
+[8.313s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.317s] -- Detecting C compile features
+[8.320s] -- Detecting C compile features - done
+[8.464s] -- Detecting CXX compiler ABI info
+[10.351s] -- Detecting CXX compiler ABI info - done
+[10.407s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[10.409s] -- Detecting CXX compile features
+[10.412s] -- Detecting CXX compile features - done
+[10.538s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[11.152s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[11.517s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[11.969s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[16.075s] -- Found gazebo_ros2_control: 0.4.10 (/opt/ros/humble/share/gazebo_ros2_control/cmake)
+[16.247s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[16.267s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[16.299s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[16.340s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[16.380s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.849s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[16.868s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[16.932s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[18.615s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[18.620s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[19.384s] -- Found FastRTPS: /opt/ros/humble/include  
+[19.389s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[19.469s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[19.796s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[20.079s] -- Looking for pthread.h
+[22.108s] -- Looking for pthread.h - found
+[22.136s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[24.700s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[24.713s] -- Found Threads: TRUE  
+[25.686s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[25.689s] -- Checking for module 'bullet>=2.82'
+[26.138s] --   Found bullet, version 3.05
+[29.260s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[30.653s] -- Found assimp: /usr/include (found version "5.2.0") 
+[31.039s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[31.586s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[33.523s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[33.698s] -- Looking for ignition-math6 -- found version 6.15.1
+[33.810s] -- Searching for dependencies of ignition-math6
+[33.814s] -- Looking for OGRE...
+[33.817s] -- OGRE_PREFIX_WATCH changed.
+[33.891s] -- Checking for module 'OGRE'
+[34.427s] --   Found OGRE, version 1.9.0
+[36.018s] -- Found Ogre Ghadamon (1.9.0)
+[38.412s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[38.431s] -- Looking for OGRE_Paging...
+[40.417s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[40.420s] -- Looking for OGRE_Terrain...
+[42.130s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[42.133s] -- Looking for OGRE_Property...
+[44.326s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[44.330s] -- Looking for OGRE_RTShaderSystem...
+[46.832s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[46.838s] -- Looking for OGRE_Volume...
+[49.460s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[49.464s] -- Looking for OGRE_Overlay...
+[51.894s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[160.227s] -- Looking for ignition-math6 -- found version 6.15.1
+[160.660s] -- Looking for ignition-transport8 -- found version 8.2.1
+[160.663s] -- Searching for dependencies of ignition-transport8
+[164.939s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[168.690s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[168.856s] -- Checking for module 'libzmq >= 4'
+[169.776s] --   Found libzmq , version 4.3.4
+[172.501s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[172.853s] -- Checking for module 'uuid'
+[173.960s] --   Found uuid, version 2.37.2
+[177.032s] -- Found UUID: TRUE  
+[177.628s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[177.630s] -- Searching for dependencies of ignition-msgs5
+[181.536s] -- Looking for ignition-math6 -- found version 6.15.1
+[181.736s] -- Checking for module 'tinyxml2'
+[182.711s] --   Found tinyxml2, version 9.0.0
+[185.267s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[185.732s] -- Looking for ignition-common3 -- found version 3.14.0
+[185.734s] -- Searching for dependencies of ignition-common3
+[185.860s] -- Looking for dlfcn.h - found
+[185.992s] -- Looking for libdl - found
+[185.994s] -- Found DL: TRUE  
+[186.943s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[186.945s] -- Searching for <ignition-common3> component [graphics]
+[187.435s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[187.436s] -- Searching for dependencies of ignition-common3-graphics
+[187.439s] -- Looking for ignition-math6 -- found version 6.15.1
+[187.919s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[187.921s] -- Searching for dependencies of ignition-fuel_tools4
+[196.159s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[196.678s] -- Checking for module 'jsoncpp'
+[197.781s] --   Found jsoncpp, version 1.9.5
+[200.404s] -- Found JSONCPP: TRUE  
+[200.636s] -- Checking for module 'libzip'
+[201.849s] --   Found libzip, version 1.7.3
+[204.308s] -- Found ZIP: TRUE  
+[204.310s] -- Looking for ignition-common3 -- found version 3.14.0
+[204.312s] -- Looking for ignition-math6 -- found version 6.15.1
+[204.314s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[204.860s] -- Gazebo version: 11.10
+[204.862s] -- Checking for module 'tbb'
+[205.875s] --   Found tbb, version 2021.5.0
+[212.167s] -- Configuring done
+[212.726s] -- Generating done
+[213.178s] -- Build files have been written to: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial
+[213.201s] Invoked command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/urdf_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial
+[213.226s] Invoking command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial -- -j20 -l20
+[216.258s] Invoked command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial -- -j20 -l20
+[216.315s] Invoking command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial
+[217.024s] -- Install configuration: ""
+[217.044s] -- Execute custom install script
+[217.173s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/01-myfirst (copy).urdf
+[217.936s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/01-myfirst.urdf
+[218.765s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/02-multipleshapes.urdf
+[219.805s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/03-origins.urdf
+[220.425s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/04-materials.urdf
+[221.021s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/05-visual.urdf
+[221.568s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/06-flexible.urdf
+[222.089s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/07-physics.urdf
+[222.688s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/08-macroed.urdf.xacro
+[223.216s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/backpack_2d.urdf
+[223.808s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/feetech_tray.urdf.xacro
+[224.452s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/meshes/base_link.stl
+[225.112s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/launch/display.launch
+[225.815s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/launch/gazebo.launch.py
+[226.434s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/rviz/urdf.rviz
+[226.867s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/rviz/urdf.vcg
+[227.402s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/world/apartment.world
+[227.831s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/world/optimized.world
+[228.522s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/ament_index/resource_index/package_run_dependencies/urdf_tutorial
+[229.254s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/ament_index/resource_index/parent_prefix_path/urdf_tutorial
+[229.790s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.sh
+[230.276s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.dsv
+[230.778s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/environment/path.sh
+[231.295s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/environment/path.dsv
+[231.827s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.bash
+[232.408s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.sh
+[232.910s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.zsh
+[233.422s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.dsv
+[233.971s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/package.dsv
+[234.524s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/ament_index/resource_index/packages/urdf_tutorial
+[235.082s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig.cmake
+[235.638s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig-version.cmake
+[236.215s] -- Symlinking: /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/urdf_tutorial/share/urdf_tutorial/package.xml
+[236.730s] Invoked command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/urdf_tutorial

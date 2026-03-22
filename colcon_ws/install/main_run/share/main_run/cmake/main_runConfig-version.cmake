@@ -1,0 +1,1 @@
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run/ament_cmake_core/main_runConfig-version.cmake

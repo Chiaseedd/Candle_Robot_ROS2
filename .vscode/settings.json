@@ -1,0 +1,11 @@
+{
+    "cmake.sourceDirectory": "C:/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_workbench_msgs/dynamixel_workbench_msgs__py",
+    "python.analysis.extraPaths": [
+        "C:/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_workbench_msgs/lib/python3.10/site-packages",
+        "C:/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_workbench_msgs/local/lib/python3.10/dist-packages"
+    ],
+    "python.autoComplete.extraPaths": [
+        "C:/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_workbench_msgs/lib/python3.10/site-packages",
+        "C:/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/dynamixel_workbench_msgs/local/lib/python3.10/dist-packages"
+    ]
+}

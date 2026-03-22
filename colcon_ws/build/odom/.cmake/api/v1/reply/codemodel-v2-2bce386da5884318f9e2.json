@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d6bed74236c9891d5d00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "odom",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "get_odom::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-get_odom-5b0ea365034e1a1a7dc9.json",
+					"name" : "get_odom",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odom_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odom_c-7ab28368da1f6e720299.json",
+					"name" : "odom_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odom_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odom_uninstall-e8ee091cc9e9997a73c9.json",
+					"name" : "odom_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b675e3d971a0449ae52a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/odom",
+		"source" : "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/odom"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

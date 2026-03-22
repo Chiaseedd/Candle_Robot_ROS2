@@ -1,0 +1,1 @@
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_sdk_custom_interfaces/rosidl_cmake/srv/GetPosition_Request.msg

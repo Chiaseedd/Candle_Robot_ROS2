@@ -1,0 +1,22 @@
+[0.105s] Invoking command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run': /usr/bin/cmake --build /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run -- -j20 -l20
+[0.438s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.760s] Traceback (most recent call last):
+[0.762s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.764s]     from ament_package.templates import get_environment_hook_template_path
+[0.766s] ModuleNotFoundError: No module named 'ament_package'
+[0.779s] CMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.782s]   execute_process(/usr/bin/python3
+[0.785s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.787s]   /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run/ament_cmake_package_templates/templates.cmake)
+[0.789s]   returned error code 1
+[0.792s] Call Stack (most recent call first):
+[0.793s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.795s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.796s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.798s]   CMakeLists.txt:8 (find_package)
+[0.802s] 
+[0.805s] 
+[0.806s] -- Configuring incomplete, errors occurred!
+[0.808s] See also "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run/CMakeFiles/CMakeOutput.log".
+[0.822s] gmake: *** [Makefile:431: cmake_check_build_system] Error 1
+[0.825s] Invoked command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run' returned '2': /usr/bin/cmake --build /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run -- -j20 -l20

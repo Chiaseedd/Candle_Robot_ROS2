@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-00bffd3aaf0d7886e76b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "dynamixel_workbench_msgs__py",
+					"jsonFile" : "directory-dynamixel_workbench_msgs__py-fe9dacb70b78474005b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_workbench_msgs/dynamixel_workbench_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "dynamixel_workbench_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dynamixel_workbench_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dynamixel_workbench_msgs_egg-e323e2151290ffc638d7.json",
+					"name" : "ament_cmake_python_build_dynamixel_workbench_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_dynamixel_workbench_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_dynamixel_workbench_msgs-704c39e1f6180c7c9c99.json",
+					"name" : "ament_cmake_python_symlink_dynamixel_workbench_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs-be879625d6f0bbea1f71.json",
+					"name" : "dynamixel_workbench_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__cpp-222bef29eb3433b86893.json",
+					"name" : "dynamixel_workbench_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dynamixel_workbench_msgs__py::@196a1796d7f781fe3c6e",
+					"jsonFile" : "target-dynamixel_workbench_msgs__py-44fe7e88b42e4df12fda.json",
+					"name" : "dynamixel_workbench_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_generator_c-4c020c89b71df6425806.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_generator_py-c2c08ecc4dcede9744fa.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_typesupport_c-b2450df69ceeccf9cd48.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_typesupport_c__pyext-afa9d9b3046b3df84aee.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_typesupport_cpp-b86d3beff4c2d4e992db.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c-bd5238e881baa5ef6d87.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c__pyext-358d2edb4637f12ddad2.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_cpp-c62c983c70ebe5475f80.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_typesupport_introspection_c-368424be10b9d3231b7e.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_typesupport_introspection_c__pyext-c9434c8649afeb46aabd.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs__rosidl_typesupport_introspection_cpp-cae50df43c9766a209d7.json",
+					"name" : "dynamixel_workbench_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_workbench_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_workbench_msgs_uninstall-b8de7c6490522eb2de7b.json",
+					"name" : "dynamixel_workbench_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-496f732a38d6314b4073.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_workbench_msgs",
+		"source" : "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,10 @@
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_sdk/CMakeFiles/uninstall.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_sdk/CMakeFiles/dynamixel_sdk_uninstall.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_sdk/CMakeFiles/dynamixel_sdk.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_sdk/CMakeFiles/test.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_sdk/CMakeFiles/edit_cache.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_sdk/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_sdk/CMakeFiles/list_install_components.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_sdk/CMakeFiles/install.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_sdk/CMakeFiles/install/local.dir
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_sdk/CMakeFiles/install/strip.dir

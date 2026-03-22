@@ -1,0 +1,297 @@
+[0.406s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'main_run']
+[0.407s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['main_run'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7b83c87d36a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b83c87d3250>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b83c87d3250>>)
+[0.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.827s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.827s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.828s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.829s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore_ament_install'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_pkg']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_pkg'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_meta']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_meta'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ros']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ros'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['cmake', 'python']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'cmake'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['python_setup_py']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python_setup_py'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore_ament_install'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_pkg']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_pkg'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_meta']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_meta'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ros']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ros'
+[1.036s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore_ament_install'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_pkg']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_pkg'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_meta']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_meta'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ros']
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ros'
+[1.103s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with type 'ros.ament_cmake' and name 'dynamixel_sdk_custom_interfaces'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ignore', 'ignore_ament_install']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore_ament_install'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_pkg']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_pkg'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_meta']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_meta'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ros']
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ros'
+[1.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_examples' with type 'ros.ament_cmake' and name 'dynamixel_sdk_examples'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['ignore', 'ignore_ament_install']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'ignore'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'ignore_ament_install'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['colcon_pkg']
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'colcon_pkg'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['colcon_meta']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'colcon_meta'
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['ros']
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'ros'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['cmake', 'python']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'cmake'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'python'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['python_setup_py']
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'python_setup_py'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extensions ['ignore', 'ignore_ament_install']
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'ignore'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'ignore_ament_install'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extensions ['colcon_pkg']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'colcon_pkg'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extensions ['colcon_meta']
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'colcon_meta'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extensions ['ros']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'ros'
+[1.286s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel-workbench/dynamixel_workbench' with type 'ros.ament_cmake' and name 'dynamixel_workbench'
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ignore'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ignore_ament_install'
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['colcon_pkg']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'colcon_pkg'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['colcon_meta']
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'colcon_meta'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['ros']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ros'
+[1.347s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel-workbench/dynamixel_workbench_toolbox' with type 'ros.ament_cmake' and name 'dynamixel_workbench_toolbox'
+[1.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'ignore'
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'ignore_ament_install'
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extensions ['colcon_pkg']
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'colcon_pkg'
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extensions ['colcon_meta']
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'colcon_meta'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extensions ['ros']
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'ros'
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extensions ['cmake', 'python']
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'cmake'
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'python'
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extensions ['python_setup_py']
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'python_setup_py'
+[1.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extension 'ignore'
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extension 'ignore_ament_install'
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extensions ['colcon_pkg']
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extension 'colcon_pkg'
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extensions ['colcon_meta']
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extension 'colcon_meta'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extensions ['ros']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extension 'ros'
+[1.466s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel-workbench-msgs/dynamixel_workbench_msgs' with type 'ros.ament_cmake' and name 'dynamixel_workbench_msgs'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech) by extensions ['ignore', 'ignore_ament_install']
+[1.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech) by extension 'ignore'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech) by extension 'ignore_ament_install'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech) by extensions ['colcon_pkg']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech) by extension 'colcon_pkg'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech) by extensions ['colcon_meta']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech) by extension 'colcon_meta'
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech) by extensions ['ros']
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech) by extension 'ros'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech) by extensions ['cmake', 'python']
+[1.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech) by extension 'cmake'
+[1.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech) by extension 'python'
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech) by extensions ['python_setup_py']
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech) by extension 'python_setup_py'
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech/feetechlib) by extensions ['ignore', 'ignore_ament_install']
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech/feetechlib) by extension 'ignore'
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech/feetechlib) by extension 'ignore_ament_install'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech/feetechlib) by extensions ['colcon_pkg']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech/feetechlib) by extension 'colcon_pkg'
+[1.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech/feetechlib) by extensions ['colcon_meta']
+[1.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech/feetechlib) by extension 'colcon_meta'
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech/feetechlib) by extensions ['ros']
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/feetech/feetechlib) by extension 'ros'
+[1.598s] DEBUG:colcon.colcon_core.package_identification:Package 'src/feetech/feetechlib' with type 'ros.ament_cmake' and name 'feetechlib'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_run) by extensions ['ignore', 'ignore_ament_install']
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_run) by extension 'ignore'
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_run) by extension 'ignore_ament_install'
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_run) by extensions ['colcon_pkg']
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_run) by extension 'colcon_pkg'
+[1.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_run) by extensions ['colcon_meta']
+[1.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_run) by extension 'colcon_meta'
+[1.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_run) by extensions ['ros']
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_run) by extension 'ros'
+[1.653s] DEBUG:colcon.colcon_core.package_identification:Package 'src/main_run' with type 'ros.ament_cmake' and name 'main_run'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extensions ['ignore', 'ignore_ament_install']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extension 'ignore'
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extension 'ignore_ament_install'
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extensions ['colcon_pkg']
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extension 'colcon_pkg'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extensions ['colcon_meta']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extension 'colcon_meta'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extensions ['ros']
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extension 'ros'
+[1.709s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odom' with type 'ros.ament_cmake' and name 'odom'
+[1.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[1.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'ignore'
+[1.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'ignore_ament_install'
+[1.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['colcon_pkg']
+[1.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'colcon_pkg'
+[1.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['colcon_meta']
+[1.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'colcon_meta'
+[1.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['ros']
+[1.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'ros'
+[1.766s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urdf_tutorial' with type 'ros.ament_cmake' and name 'urdf_tutorial'
+[1.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.901s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dynamixel_sdk' in 'src/DynamixelSDK/dynamixel_sdk'
+[1.902s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dynamixel_sdk_custom_interfaces' in 'src/DynamixelSDK/dynamixel_sdk_custom_interfaces'
+[1.902s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dynamixel_workbench_msgs' in 'src/dynamixel-workbench-msgs/dynamixel_workbench_msgs'
+[1.903s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'feetechlib' in 'src/feetech/feetechlib'
+[1.903s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'urdf_tutorial' in 'src/urdf_tutorial'
+[1.904s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dynamixel_sdk_examples' in 'src/DynamixelSDK/dynamixel_sdk_examples'
+[1.904s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dynamixel_workbench_toolbox' in 'src/dynamixel-workbench/dynamixel_workbench_toolbox'
+[1.905s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'odom' in 'src/odom'
+[1.905s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dynamixel_workbench' in 'src/dynamixel-workbench/dynamixel_workbench'
+[1.906s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.907s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.917s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 378 installed packages in /opt/ros/humble
+[1.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'main_run' build argument 'cmake_args' from command line to 'None'
+[2.009s] Level 5:colcon.colcon_core.verb:set package 'main_run' build argument 'cmake_target' from command line to 'None'
+[2.009s] Level 5:colcon.colcon_core.verb:set package 'main_run' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.010s] Level 5:colcon.colcon_core.verb:set package 'main_run' build argument 'cmake_clean_cache' from command line to 'False'
+[2.010s] Level 5:colcon.colcon_core.verb:set package 'main_run' build argument 'cmake_clean_first' from command line to 'False'
+[2.011s] Level 5:colcon.colcon_core.verb:set package 'main_run' build argument 'cmake_force_configure' from command line to 'False'
+[2.012s] Level 5:colcon.colcon_core.verb:set package 'main_run' build argument 'ament_cmake_args' from command line to 'None'
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'main_run' build argument 'catkin_cmake_args' from command line to 'None'
+[2.014s] Level 5:colcon.colcon_core.verb:set package 'main_run' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.015s] DEBUG:colcon.colcon_core.verb:Building package 'main_run' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run', 'merge_install': False, 'path': '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/main_run', 'symlink_install': True, 'test_result_base': None}
+[2.015s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.018s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.019s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/main_run' with build type 'ament_cmake'
+[2.019s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/main_run'
+[2.023s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.024s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.025s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run -- -j20 -l20
+[22.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run -- -j20 -l20
+[22.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run
+[27.237s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(main_run)
+[27.240s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run' for CMake module files
+[27.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run
+[27.568s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run' for CMake config files
+[27.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_run', 'cmake_prefix_path')
+[27.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/hook/cmake_prefix_path.ps1'
+[27.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/hook/cmake_prefix_path.dsv'
+[27.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/hook/cmake_prefix_path.sh'
+[27.932s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib'
+[27.941s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/bin'
+[27.944s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/pkgconfig/main_run.pc'
+[27.947s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/python3.10/site-packages'
+[27.951s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/bin'
+[27.955s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/package.ps1'
+[27.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/package.dsv'
+[28.009s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/package.sh'
+[28.034s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/package.bash'
+[28.060s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/package.zsh'
+[28.084s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/colcon-core/packages/main_run)
+[28.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(main_run)
+[28.139s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run' for CMake module files
+[28.471s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run' for CMake config files
+[28.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_run', 'cmake_prefix_path')
+[28.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/hook/cmake_prefix_path.ps1'
+[28.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/hook/cmake_prefix_path.dsv'
+[28.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/hook/cmake_prefix_path.sh'
+[28.838s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib'
+[28.847s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/bin'
+[28.850s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/pkgconfig/main_run.pc'
+[28.856s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/lib/python3.10/site-packages'
+[28.862s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/bin'
+[28.865s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/package.ps1'
+[28.892s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/package.dsv'
+[28.918s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/package.sh'
+[28.943s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/package.bash'
+[28.970s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/main_run/package.zsh'
+[28.996s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/main_run/share/colcon-core/packages/main_run)
+[29.014s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[29.015s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[29.015s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[29.016s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[29.250s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[29.251s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[29.252s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[29.252s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[29.253s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[29.254s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[29.255s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/local_setup.ps1'
+[29.266s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/_local_setup_util_ps1.py'
+[29.281s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/setup.ps1'
+[29.292s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/local_setup.sh'
+[29.302s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/_local_setup_util_sh.py'
+[29.312s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/setup.sh'
+[29.322s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/local_setup.bash'
+[29.334s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/setup.bash'
+[29.344s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/local_setup.zsh'
+[29.354s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/install/setup.zsh'

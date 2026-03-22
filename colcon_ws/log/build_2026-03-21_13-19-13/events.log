@@ -1,0 +1,55 @@
+[0.000000] (-) TimerEvent: {}
+[0.000559] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000977] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.001891] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.002670] (-) JobUnselected: {'identifier': 'dynamixel_workbench'}
+[0.003165] (-) JobUnselected: {'identifier': 'dynamixel_workbench_msgs'}
+[0.003507] (-) JobUnselected: {'identifier': 'dynamixel_workbench_toolbox'}
+[0.003928] (-) JobUnselected: {'identifier': 'feetechlib'}
+[0.004315] (-) JobUnselected: {'identifier': 'odom'}
+[0.004678] (-) JobUnselected: {'identifier': 'urdf_tutorial'}
+[0.005167] (main_run) JobQueued: {'identifier': 'main_run', 'dependencies': OrderedDict()}
+[0.005665] (main_run) JobStarted: {'identifier': 'main_run'}
+[0.040811] (main_run) JobProgress: {'identifier': 'main_run', 'progress': 'cmake'}
+[0.079466] (main_run) JobProgress: {'identifier': 'main_run', 'progress': 'build'}
+[0.092078] (main_run) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run', '--', '-j20', '-l20'], 'cwd': '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run', 'env': OrderedDict([('USER', 'jia'), ('SHLVL', '0'), ('HOME', '/home/jia'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'jia'), ('NAME', 'LAPTOP-QBFAPHDE'), ('_', '/usr/bin/colcon'), ('WSL_INTEROP', '/run/WSL/4378_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.2.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/ZED SDK/dependencies/freeglut_2.8/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/glew-1.12.0/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/opencv_3.1.0/x64:/mnt/c/Program Files (x86)/ZED SDK/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/User/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Antigravity/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('PWD', '/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.113219] (-) TimerEvent: {}
+[0.213991] (-) TimerEvent: {}
+[0.314678] (-) TimerEvent: {}
+[0.415386] (-) TimerEvent: {}
+[0.443145] (main_run) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.515514] (-) TimerEvent: {}
+[0.616266] (-) TimerEvent: {}
+[0.716893] (-) TimerEvent: {}
+[0.765167] (main_run) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.767448] (main_run) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[0.769725] (main_run) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[0.771932] (main_run) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[0.784266] (main_run) StderrLine: {'line': b'CMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.786613] (main_run) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.790251] (main_run) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.792591] (main_run) StderrLine: {'line': b'  /mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run/ament_cmake_package_templates/templates.cmake)\n'}
+[0.794495] (main_run) StderrLine: {'line': b'  returned error code 1\n'}
+[0.797116] (main_run) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.798970] (main_run) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.800706] (main_run) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.802059] (main_run) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.803434] (main_run) StderrLine: {'line': b'  CMakeLists.txt:8 (find_package)\n'}
+[0.805088] (main_run) StderrLine: {'line': b'\n'}
+[0.810837] (main_run) StderrLine: {'line': b'\n'}
+[0.812347] (main_run) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.813721] (main_run) StdoutLine: {'line': b'See also "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/main_run/CMakeFiles/CMakeOutput.log".\n'}
+[0.817141] (-) TimerEvent: {}
+[0.828057] (main_run) StderrLine: {'line': b'gmake: *** [Makefile:431: cmake_check_build_system] Error 1\n'}
+[0.830865] (main_run) CommandEnded: {'returncode': 2}
+[0.917292] (-) TimerEvent: {}
+[1.019706] (-) TimerEvent: {}
+[1.120526] (-) TimerEvent: {}
+[1.221120] (-) TimerEvent: {}
+[1.328974] (-) TimerEvent: {}
+[1.436598] (-) TimerEvent: {}
+[1.543521] (-) TimerEvent: {}
+[1.644310] (-) TimerEvent: {}
+[1.745168] (-) TimerEvent: {}
+[1.751123] (main_run) JobEnded: {'identifier': 'main_run', 'rc': 2}
+[1.764960] (-) EventReactorShutdown: {}

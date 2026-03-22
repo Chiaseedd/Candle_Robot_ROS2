@@ -1,0 +1,7 @@
+{
+  "package_name": "dynamixel_sdk_custom_interfaces",
+  "non_idl_tuples": [
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces:msg/SetPosition.msg",
+    "/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces:srv/GetPosition.srv"
+  ]
+}

@@ -1,0 +1,1 @@
+/mnt/c/Users/User/Downloads/Candle_TheRobot-main/colcon_ws/build/dynamixel_workbench_msgs/rosidl_generator_c/dynamixel_workbench_msgs/srv/detail/dynamixel_command__type_support.h
