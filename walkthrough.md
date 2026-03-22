@@ -106,10 +106,12 @@ Run each command in a **separate WSL terminal** inside the `colcon_ws` directory
 # ── Terminal 1: Simulation ──────────────────────────────────────
 killall -9 gzserver gzclient rviz2 2>/dev/null
 export MESA_D3D12_DEFAULT_ADAPTER_NAME=NVIDIA
-export MESA_GL_VERSION_OVERRIDE=3.3
+export MESA_GL_VERSION_OVERRIDE=4.1
 ros2 launch urdf_tutorial gazebo.launch.py
 
 # ── Terminal 2: Navigation (wait ~15 s for Gazebo to settle) ───
+export MESA_D3D12_DEFAULT_ADAPTER_NAME=NVIDIA
+export MESA_GL_VERSION_OVERRIDE=4.1
 source install/setup.bash
 ros2 launch main_run navigation.launch.py
 
@@ -121,6 +123,7 @@ ros2 run main_run sphere_wanderer.py
 # ── Terminal 4: Robot tracker ───────────────────────────────────
 source install/setup.bash
 ros2 run main_run mobile_goal_tracker.py
+# Press 'h' for robot to go home(0,0)
 ```
 
 > **Manual goal mode**: skip Terminals 3 & 4, open RViz from Terminal 2 and click **Nav2 Goal** (green arrow) anywhere on the map.
